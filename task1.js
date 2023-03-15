@@ -1,0 +1,11 @@
+let body=document.querySelector("body")
+let colmn=document.createElement("div")
+colmn.classList.add("col-6")
+let div=document.createElement("div")
+div.classList.add("container")
+let row=document.createElement("div")
+row.classList.add("row")
+row.classList.add("justify-content-center");
+row.style.height=("360px")
+row.style.width=("960px")
+row.style.background=("bg-black")
